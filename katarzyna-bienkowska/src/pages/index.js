@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Home() {
   return (
@@ -19,13 +20,13 @@ export default function Home() {
           </Link>
         </div>
         <div className={styles.main}>
-          <img
-            src="/KB.png"
+          <StaticImage
             alt="my pic"
+            src="../images/KB.png"
+            placeholder="tracedSVG"
+            width={390}
             style={{
               margin: "10px 0 50px 0",
-              width: "290px",
-              height: "290px",
               border: "2px solid #fff",
               boxShadow: "0 5px 5px  #ccc",
               borderRadius: "190px",
