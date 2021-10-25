@@ -15,9 +15,6 @@ export default function Home() {
           <Link className={styles.btn} to="/projects">
             My Portfolio Projects
           </Link>
-          <Link className={styles.btn} to="/about">
-            Contact
-          </Link>
         </div>
         <div className={styles.main}>
           <StaticImage
