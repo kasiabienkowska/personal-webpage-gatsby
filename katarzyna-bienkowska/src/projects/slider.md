@@ -1,6 +1,7 @@
 ---
 title: Image Slider
 stack: Javascrip & HTML & CSS 
-slug: kasia-bienkowska-portfolio
+slug: slider
 thumb: ../images/thumbs/slider.png
+pathname: https://github.com/kasiabienkowska/project2-calculator
 ---

@@ -1,7 +1,7 @@
 ---
-title: The layout of Spotify log-in website
+title: Spotify log-in layout
 stack: HTML & CSS
-slug: kasia-bienkowska-portfolio
+slug: spotify-layout
 thumb: ../images/thumbs/spotify.png
+pathname: https://github.com/kasiabienkowska/project2-calculator
 ---
-

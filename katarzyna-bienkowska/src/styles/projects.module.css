@@ -1,26 +1,65 @@
 .portfolio {
-    text-align: center;
-  }
-  .portfolio > h2 {
-    font-size: 3em;
-    margin-top: 80px;
-  }
-  .portfolio > h3 {
-    font-size: 2em;
-    font-weight: 400;
-  }
+  text-align: center;
+}
+.portfolio > h2 {
+  font-size: 3em;
+  margin-top: 80px;
+}
+.portfolio > h3 {
+  font-size: 2em;
+  font-weight: 400;
+}
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 80px;
+  margin: 80px 20px;
+}
+.projects h3 {
+  text-align: center;
+  margin: 20px auto 0px;
+  font-weight: 500;
+}
+.projects p {
+  color: #ccc;
+  margin-top: 4px;
+}
+
+.btn {
+  background: #d42990;
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+  width: 50%;
+  justify-self: center;
+}
+
+.links {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+@media (max-width: 680px) {
   .projects {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 80px;
+    margin: 80px 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 80px;
     margin: 80px 20px;
   }
   .projects h3 {
-    text-align: center;
-    margin: 20px auto 0px;
-    font-weight: 500;
+    font-size: 20px;
   }
   .projects p {
-    color: #ccc;
-    margin-top: 4px;
+    font-size: 16px;
   }
+}

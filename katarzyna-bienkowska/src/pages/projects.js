@@ -30,25 +30,21 @@ export default function Projects({ data }) {
 }
 
 export const query = graphql`
-query ProjectsPage {
-  allMarkdownRemark {
-    nodes {
-      frontmatter {
-        slug
-        stack
-        title
-        thumb {
-          childImageSharp {
-            gatsbyImageData(placeholder: TRACED_SVG, layout: FULL_WIDTH)
+  query ProjectsPage {
+    allMarkdownRemark {
+      nodes {
+        frontmatter {
+          slug
+          stack
+          title
+          thumb {
+            childImageSharp {
+              gatsbyImageData(placeholder: TRACED_SVG, layout: FULL_WIDTH)
+            }
           }
         }
+        id
       }
-      id
     }
   }
-}
-
-
-
-
 `

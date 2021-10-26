@@ -1,8 +1,9 @@
 ---
 title: Money Finder App
 stack: React
-slug: kasia-bienkowska-portfolio
+slug: moneyfinder
 thumb: ../images/thumbs/moneyapp.png
+pathname: https://github.com/kasiabienkowska/project2-calculator
 ---
 
 

@@ -25,16 +25,14 @@ p {
   margin: 0 auto;
 }
 nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: flex-end;
   margin: 40px auto;
 }
 nav .links {
-  display: inline-block;
   text-align: right;
 }
 nav a {
-  display: inline-block;
   margin-left: 20px;
   font-weight: 400;
   padding-bottom: 8px;
@@ -47,4 +45,10 @@ footer p {
   text-align: center;
   color: #bbb;
   margin: 40px auto;
+}
+
+@media (max-width: 680px) {
+  nav{
+    justify-content: center;
+  }
 }

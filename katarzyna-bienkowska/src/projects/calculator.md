@@ -1,6 +1,7 @@
 ---
 title: Calculator
 stack: Javascrip & HTML & CSS 
-slug: kasia-bienkowska-portfolio
+slug: calculator
 thumb: ../images/thumbs/calculator.png
+pathname: https://github.com/kasiabienkowska/project2-calculator
 ---

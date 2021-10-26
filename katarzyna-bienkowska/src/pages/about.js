@@ -5,8 +5,8 @@ export default function About() {
   return (
     <Layout>
       <div>
-        <h1>About Page</h1>
-        <p>bla bla</p>
+        <h1>About Me</h1>
+        <p></p>
       </div>
     </Layout>
   )

@@ -1,6 +1,7 @@
 ---
-title: The layout of demo-webiste
+title: demo website layout
 stack: HTML & CSS
-slug: kasia-bienkowska-portfolio
+slug: demo-website
 thumb: ../images/thumbs/webpage.png
+pathname: https://github.com/kasiabienkowska/project2-calculator
 ---

@@ -16,18 +16,11 @@ export default function Home() {
             My Portfolio Projects
           </Link>
         </div>
-        <div className={styles.main}>
-          <StaticImage
+        <div >
+          <StaticImage className={styles.main}
             alt="my pic"
             src="../images/KB.png"
-            placeholder="tracedSVG"
-            width={390}
-            style={{
-              margin: "10px 0 50px 0",
-              border: "2px solid #fff",
-              boxShadow: "0 5px 5px  #ccc",
-              borderRadius: "190px",
-            }}
+            placeholder="blurred"
           />
         </div>
       </section>
