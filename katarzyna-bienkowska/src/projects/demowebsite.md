@@ -1,7 +1,8 @@
 ---
-title: demo website layout
+title: Demo website layout
 stack: HTML & CSS
 slug: demo-website
 thumb: ../images/thumbs/webpage.png
-pathname: https://github.com/kasiabienkowska/project2-calculator
+featured: ../images/featured/webpage.png
+original: ../images/originals/ricardo-org.png
 ---

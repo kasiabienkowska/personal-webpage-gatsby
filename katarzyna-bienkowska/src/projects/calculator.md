@@ -1,7 +1,7 @@
 ---
 title: Calculator
-stack: Javascrip & HTML & CSS 
+stack: Javascript & HTML & CSS 
 slug: calculator
 thumb: ../images/thumbs/calculator.png
-pathname: https://github.com/kasiabienkowska/project2-calculator
+featured: ../images/featured/calculator.png
 ---

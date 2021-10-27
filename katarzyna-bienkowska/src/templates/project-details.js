@@ -6,16 +6,17 @@ import { graphql } from "gatsby"
 
 export default function ProjectDetails({ data }) {
   const { html } = data.markdownRemark
-  const { title, stack, thumb } = data.markdownRemark.frontmatter
+  const { title, stack, featured, original } = data.markdownRemark.frontmatter
   return (
     <Layout>
       <div className={styles.details}>
         <h2>{title}</h2>
         <h3>{stack}</h3>
         <div className={styles.featured}>
-          <GatsbyImage
-            image={getImage(thumb)}
-          />
+          <GatsbyImage image={getImage(featured)} />
+        </div>
+        <div className={styles.featured}>
+          <GatsbyImage image={getImage(original)} />
         </div>
         <div
           className={styles.html}
@@ -27,18 +28,28 @@ export default function ProjectDetails({ data }) {
 }
 
 export const query = graphql`
-query ProjectsDetails($slug: String) {
-  markdownRemark(frontmatter: {slug: {eq: $slug}}) {
-    html
-    frontmatter {
-      stack
-      title
-      thumb {
-        childImageSharp {
-          gatsbyImageData(layout: FIXED, placeholder: DOMINANT_COLOR)
+  query ProjectsDetails($slug: String) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        stack
+        title
+        thumb {
+          childImageSharp {
+            gatsbyImageData(layout: FIXED, placeholder: DOMINANT_COLOR)
+          }
+        }
+        featured {
+          childImageSharp {
+            gatsbyImageData(layout: FIXED, placeholder: DOMINANT_COLOR)
+          }
+        }
+        original {
+          childrenImageSharp {
+            gatsbyImageData(layout: FIXED, placeholder: DOMINANT_COLOR)
+          }
         }
       }
     }
   }
-}
 `

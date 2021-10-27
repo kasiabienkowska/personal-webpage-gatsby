@@ -12,10 +12,11 @@ body {
   min-height: 100%;
 }
 body {
-  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
-  background-repeat: no-repeat;
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
 }
-p {
+p, ul {
   margin: 16px auto;
   line-height: 1.5em;
 }
@@ -48,7 +49,7 @@ footer p {
 }
 
 @media (max-width: 680px) {
-  nav{
+  nav {
     justify-content: center;
   }
 }

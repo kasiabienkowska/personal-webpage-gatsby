@@ -1,7 +1,7 @@
 ---
 title: Image Slider
-stack: Javascrip & HTML & CSS 
+stack: Javascript & HTML & CSS 
 slug: slider
 thumb: ../images/thumbs/slider.png
-pathname: https://github.com/kasiabienkowska/project2-calculator
+featured: ../images/featured/slider.png
 ---
