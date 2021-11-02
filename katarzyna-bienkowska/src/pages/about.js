@@ -44,12 +44,12 @@ export default function About() {
               </a>
             </li>
             <li>
-              <a href="https://github.com/kasiabienkowska">
+              <a href="https://www.linkedin.com/in/katarzyna-bie%C5%84kowska03/">
                 <FontAwesomeIcon icon={faLinkedin} size="5x"></FontAwesomeIcon>
               </a>
             </li>
             <li>
-              <a href="https://github.com/kasiabienkowska">
+              <a href="mailto:kasia.bienkowska03@gmail.com">
                 <FontAwesomeIcon icon={faEnvelope} size="5x"></FontAwesomeIcon>
               </a>
             </li>

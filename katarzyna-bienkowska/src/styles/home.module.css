@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 100px;
 }
 .header h2 {
   font-size: 3em;

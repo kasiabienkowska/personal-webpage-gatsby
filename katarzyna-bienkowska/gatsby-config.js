@@ -13,6 +13,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     'gatsby-plugin-breakpoints',
     `gatsby-plugin-fontawesome-css`,
+    `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
