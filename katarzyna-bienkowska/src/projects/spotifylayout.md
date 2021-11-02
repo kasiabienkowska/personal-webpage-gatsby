@@ -4,6 +4,7 @@ stack: HTML & CSS
 slug: spotify-layout
 thumb: ../images/thumbs/spotify.png
 featured: ../images/featured/spotify.png
-github: https://github.com/kasiabienkowska/project-1-layouts
-page: https://kasiabienkowska.github.io/project2-calculator/
+github: https://github.com/kasiabienkowska/spotify-layout
+page: https://github.com/kasiabienkowska/spotify-layout/settings/pages
 ---
+The purpose of this project was to copy the layout from the website using CSS and HTML.

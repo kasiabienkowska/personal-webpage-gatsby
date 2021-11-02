@@ -27,10 +27,7 @@ export default function ProjectDetails({ data }) {
           </a>
         </div>
         <div className={styles.featured}>
-          <GatsbyImage image={getImage(featured)} />
-        </div>
-        <div className={styles.featured}>
-          <GatsbyImage image={getImage(dupa)} />
+          <GatsbyImage image={getImage(featured)}/>
         </div>
       </div>
     </Layout>
