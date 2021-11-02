@@ -40,7 +40,7 @@ export default function About() {
           <ul>
             <li>
               <a href="https://github.com/kasiabienkowska">
-                <FontAwesomeIcon icon={faGithub} size="5x"></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faGithub} size="5x" ></FontAwesomeIcon>
               </a>
             </li>
             <li>
@@ -51,6 +51,25 @@ export default function About() {
             <li>
               <a href="mailto:kasia.bienkowska03@gmail.com">
                 <FontAwesomeIcon icon={faEnvelope} size="5x"></FontAwesomeIcon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className={styles.contactmobile}>
+          <ul>
+            <li>
+              <a href="https://github.com/kasiabienkowska">
+                <FontAwesomeIcon icon={faGithub} size="3x" ></FontAwesomeIcon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/katarzyna-bie%C5%84kowska03/">
+                <FontAwesomeIcon icon={faLinkedin} size="3x"></FontAwesomeIcon>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:kasia.bienkowska03@gmail.com">
+                <FontAwesomeIcon icon={faEnvelope} size="3x"></FontAwesomeIcon>
               </a>
             </li>
           </ul>

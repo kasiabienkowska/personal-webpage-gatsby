@@ -6,7 +6,7 @@ import { graphql } from "gatsby"
 
 export default function ProjectDetails({ data }) {
   const { html } = data.markdownRemark
-  const { title, stack, featured, dupa, github, page } =
+  const { title, stack, featured, github, page } =
     data.markdownRemark.frontmatter
   return (
     <Layout>
@@ -43,12 +43,12 @@ query ProjectsDetails($slug: String) {
       title
       thumb {
         childImageSharp {
-          gatsbyImageData(layout: FIXED, placeholder: DOMINANT_COLOR)
+          gatsbyImageData(layout: CONSTRAINED)
         }
       }
       featured {
         childImageSharp {
-          gatsbyImageData(layout: FIXED, placeholder: DOMINANT_COLOR)
+          gatsbyImageData(layout: CONSTRAINED)
         }
       }
       github
