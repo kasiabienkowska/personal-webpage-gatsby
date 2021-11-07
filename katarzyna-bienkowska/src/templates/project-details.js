@@ -18,16 +18,18 @@ export default function ProjectDetails({ data }) {
           className={styles.html}
           dangerouslySetInnerHTML={{ __html: html }}
         ></div>
-        <div>
+        <div className={styles.buttons}>
           <a href={github} className={styles.repogithub} target="_blank">
             Github repo
           </a>
+        </div>
+        <div className={styles.buttons}>
           <a href={page} className={styles.repogithub} target="_blank">
             Try it!
           </a>
         </div>
         <div className={styles.featured}>
-          <GatsbyImage image={getImage(featured)}/>
+          <GatsbyImage image={getImage(featured)} />
         </div>
       </div>
     </Layout>
@@ -35,25 +37,25 @@ export default function ProjectDetails({ data }) {
 }
 
 export const query = graphql`
-query ProjectsDetails($slug: String) {
-  markdownRemark(frontmatter: {slug: {eq: $slug}}) {
-    html
-    frontmatter {
-      stack
-      title
-      thumb {
-        childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED)
+  query ProjectsDetails($slug: String) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        stack
+        title
+        thumb {
+          childImageSharp {
+            gatsbyImageData(layout: CONSTRAINED)
+          }
         }
-      }
-      featured {
-        childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED)
+        featured {
+          childImageSharp {
+            gatsbyImageData(layout: CONSTRAINED)
+          }
         }
+        github
+        page
       }
-      github
-      page
     }
   }
-}
 `
