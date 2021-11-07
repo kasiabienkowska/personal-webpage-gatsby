@@ -47,9 +47,11 @@
   }
   .details h2 {
     font-size: 30px;
+    text-align: center;
   }
   .details h3 {
     font-size: 16px;
+    text-align: center;
   }
   .html {
     text-align: center;
